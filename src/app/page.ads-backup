@@ -1,0 +1,40 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
+export default function Home() {
+  const router = useRouter();
+
+  return (
+    <main
+      style={{
+        position: "fixed",
+        inset: 0,
+        width: "100%",
+        height: "100dvh",
+        backgroundColor: "#000000",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        zIndex: 9999,
+      }}
+    >
+      <button
+        onClick={() => router.push("/surprise")}
+        style={{
+          backgroundColor: "#ff6a00",
+          color: "#ffffff",
+          padding: "22px 35px",
+          fontSize: "20px",
+          fontWeight: "bold",
+          border: "none",
+          borderRadius: "12px",
+          cursor: "pointer",
+          boxShadow: "0 0 30px rgba(255,106,0,0.5)",
+        }}
+      >
+        DON'T PRESS BUTTON
+      </button>
+    </main>
+  );
+}
