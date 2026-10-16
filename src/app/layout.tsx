@@ -11,6 +11,15 @@ export const metadata: Metadata = {
     description: "Open a link, click, and see what happens! 100+ pranks inside.",
     type: "website",
   },
+
+openGraph: {
+      title: "PrankHub — Ready for some FUNNY SURPRISES?",
+      description: "Open a link, click, and see what happens! 100+ pranks inside.",
+      type: "website",
+    },
+    verification: {
+      google: "_pjRz5CMXH5v69TW5daF4Mkc08RfmVTj_9uHFqpuAfM",
+    },
   other: {
     "google-adsense-account": "ca-pub-7492924775014035",
   },
