@@ -11,9 +11,6 @@ export const metadata: Metadata = {
     description: "Open a link, click, and see what happens! 100+ pranks inside.",
     type: "website",
   },
-};
-    type: "website",
-  },
   other: {
     "google-adsense-account": "ca-pub-7492924775014035",
   },
