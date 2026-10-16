@@ -12,6 +12,12 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+    type: "website",
+  },
+  other: {
+    "google-adsense-account": "ca-pub-7492924775014035",
+  },
+};
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
